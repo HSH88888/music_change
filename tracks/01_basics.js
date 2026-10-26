@@ -16,7 +16,7 @@ $KICK: s("bd*4").bank("RolandTR909")
 // $HAT: s("hh*8").bank("RolandTR909").gain("0.4 0.25")
 
 // STEP 4. 베이스: A 마이너 스케일, <> 는 마디마다 바뀜
-// $BASS: n("<0 -2 -4 -3>*8").scale("A1:minor").s("sawtooth").lpf(600).decay(0.2).sustain(0)
+// $BASS: n("<0 -2 -5 -1>*8").scale("A1:minor").s("sawtooth").lpf(600).decay(0.2).sustain(0)
 
 // STEP 5. 코드: Am → F → C → G
 // $CHORD: chord("<Am F C G>").voicing().s("sawtooth").lpf(1500).attack(0.1).release(0.5).gain(0.3).room(0.5)

@@ -53,3 +53,13 @@
 
 - 공식 튜토리얼(한 단계씩 인터랙티브): <https://strudel.cc/workshop/getting-started/>
 - 함수 레퍼런스: <https://strudel.cc/learn/>
+
+## 들어보기
+
+`renders/midnight_drive.mp3` 는 `tracks/02_midnight_drive.js` 를 파이썬으로 합성해 미리 들어볼 수 있게 만든 파일입니다
+(Strudel 실제 소리와는 음색이 조금 다릅니다). 다시 만들려면:
+
+```bash
+pip install numpy scipy
+python3 render/render_midnight_drive.py out.wav
+```
